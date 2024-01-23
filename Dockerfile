@@ -7,6 +7,7 @@ WORKDIR /bot
 
 COPY package.json .
 RUN npm install
+RUN npm i wechaty-web-panel@latest --save
 COPY . .
 
 CMD [ "npm", "start" ]
