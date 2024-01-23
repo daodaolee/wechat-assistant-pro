@@ -17,7 +17,7 @@ bot = WechatyBuilder.build({
 });
 
 bot.use(WechatyWebPanelPlugin({
-    apiKey: '填入微秘书平台apikey', apiSecret: '填入微秘书平台apisecret',
+    apiKey: 'a8c21c2f5d2545fd5be9bd0e56c28e47771d82d3', apiSecret: 'dc7168e860c6055b04a2567e1fdf189177e310db',
 }))
 bot.start()
     .catch((e) => console.error(e));
